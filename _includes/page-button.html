@@ -4,12 +4,12 @@
 <div class="page-button">
 	<div>
 		{% if post.previous.url %}
-		<a id="prev" class="button" href="{{ post.previous.url | relative_url }}">&laquo; 이전글</a>
+		<a id="prev" class="button" href="{{ post.previous.url | relative_url }}">&laquo; Previous</a>
 		{% endif %}
 	</div>
 	<div>
 		{% if post.next.url %}
-		<a id="next" class="button" href="{{ post.next.url | relative_url }}">다음글 &raquo;</a>
+		<a id="next" class="button" href="{{ post.next.url | relative_url }}">Next &raquo;</a>
 		{% endif %}
 	</div>
 </div>

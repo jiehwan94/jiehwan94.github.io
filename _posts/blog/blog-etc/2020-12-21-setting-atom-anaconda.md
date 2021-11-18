@@ -1,7 +1,7 @@
 ---
 layout: post
-bigtitle: Atom에 Anaconda 연동하기
-subtitle: 'Atom 터미널에 Anaconda (base) 뜨게 하기'
+bigtitle: Syncing Atom on Anaconda
+subtitle: 'Settung up Atom on Anaconda (base)'
 categories:
     - blog
     - blog-etc

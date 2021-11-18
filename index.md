@@ -11,7 +11,52 @@ redirect_from:
 
 <!--author-->
 
-<br>
+
+<!-- <center>Major: Management Information Systems</center>
+
+<center>Minors: Computer Science, Statistics, Business Analytics</center> -->
+
+## Education
+---
+> University of Minnesota - Twin Cities
+
+Major: Management Information Systems
+
+Minors: Computer Science, Statistics, Business Analytics
+
+
+## Data-related Work Experience
+---
+> Electronic Arts (EA) 2021. 07 – 2021. 08 
+> Data Analyst Intern
+
+> LINE Corporation 2019. 05 - 2019. 06
+> Statistical Data Analyst Intern
+
+> Coyote Logistics (UPS Company) 2016. 05 - 2016. 08
+> Data Scientist Intern
+
+> Coyote Logistics (UPS Company) 2015. 06 - 2015. 08
+> Business Intelligence Engineer Intern
+
+
+## Skills and Certification
+---
+-Language : Python, R, SQL
+-DB: SQL Server, MongoDB
+-Visualization: Tableau, Power BI
+-Misc: Elasticsearch (ELK Stack), Message Queues (RabbitMQ, ZeroMQ)
+
+-Certificates : SQL Deverloper Certificate, Linux Professional Institute Certificate, Big Data Analytics Management Certificate
+
+## Contact Information
+---
+> Email: yang4972@umn.edu
+
+> Linkedin : <a href="https://www.linkedin.com/in/jiehwan-yang-8342a791/">https://linkedin.com/jiehwan_yang</a>
+
+> Github : <a href="https://github.com/jiehwan94">https://github.com/jiehwan94</a>
+
 
 ---
 A returning senior from military service majoring in MIS and minoring in Business Analytics, Computer Science, and Statistics ✏️✒️
@@ -50,11 +95,4 @@ Please refer to my [CV](/public/Yang_Jiehwan_Resume.pdf) 😃
       $('.me').slick();
     });
   </script>
-
-
----
-
-## Childhood Dream
-
-![Childhoold Dream](/assets/img/Dream.JPG)
-
+  

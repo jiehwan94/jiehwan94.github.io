@@ -1,6 +1,6 @@
 ---
 layout: post
-bigtitle: jekyll 블로그 포스팅을 위한 세팅
+bigtitle: Set up to start posting blogs using jekyll
 subtitle: '지킬 블로그 포스팅 전 준비'
 categories:
     - blog

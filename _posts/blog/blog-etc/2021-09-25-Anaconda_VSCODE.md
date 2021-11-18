@@ -1,7 +1,6 @@
 ---
 layout: post
-bigtitle:  "Visual Studio Code에 Anaconda 연동"
-subtitle:   "VS Code Terminal을 conda 로 시작"
+bigtitle:  "Syncing Anaconda with Visual Studio Code"
 categories:
     - blog
     - blog-etc
@@ -15,7 +14,6 @@ published: true
 
 이번에 VS code를 새로 설치하면 이전과 다른 세팅으로 해야한다.
 
-<https://khw11044.github.io/blog/blog-etc/2020-12-21-setting-start/>
 
 이전에 포스팅한 VS code 기본 터미널을 anaconda (base)로 시작하는 세팅인데
 

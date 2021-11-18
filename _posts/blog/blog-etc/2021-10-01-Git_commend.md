@@ -1,7 +1,6 @@
 ---
 layout: post
-bigtitle:  "Git 명령어 모음"
-subtitle:   "Git"
+bigtitle:  "Git Commands"
 categories:
     - blog
     - blog-etc
@@ -11,7 +10,7 @@ comments: true
 published: true
 ---
 
-# Git 명령어 모음
+# Git Commands
 
 ## Git 설치 (우분투에서)
 

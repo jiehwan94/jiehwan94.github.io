@@ -1,7 +1,7 @@
 ---
 layout: post
-bigtitle:  "마크다운 문법정리2_수식"
-subtitle:   "나를 위한 Markdown 작성법2(수학수식)"
+bigtitle:  "[Markdown] 02. Math Formula"
+subtitle:   "How to Write Markdown (for my reference)"
 categories:
     - blog
     - blog-etc
@@ -17,7 +17,7 @@ related_posts:
 
 ---
 
-# 마크다운 문법정리2_수학수식, 특수문자
+# [Markdown] 02. Math Formula
 
 ## 개요
 > 내가 보기위한 마크다운 `Markdown` 작성법2 수식  

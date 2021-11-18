@@ -1,7 +1,7 @@
 ---
 layout: post
-bigtitle:  "마크다운 문법정리"
-subtitle:   "나를 위한 Markdown 작성법"
+bigtitle:  "[Markdown] 01. Basic"
+subtitle:   "How to Write Markdown (for my reference)"
 categories:
     - blog
     - blog-etc
@@ -15,7 +15,7 @@ related_posts:
     - _posts/blog/blog-etc/2020-12-21-setting-atom-anaconda.md
 ---
 
-## 마크다운 문법정리
+## [Markdown] 01. Basic
 
 ## 개요
 > 내가 보기위한 마크다운 `Markdown` 작성법  
