@@ -1,7 +1,7 @@
 ---
 layout: post
 bigtitle:  'Seoul Bike Station EDA'
-subtitle:   01.개요
+subtitle:   
 categories:
     - blog
     - githubpages
@@ -104,7 +104,7 @@ If stations are clustered, the average distance will be small.
 If stations are scattered apart, the average distance will be large.
 
 
-Let's first check the distribution of distance between stations. 
+Let's first check the distribution of distance between stations.
 
  ![image10](/assets/img/Blog/Seoul_Bike/10.JPG)
 
@@ -113,7 +113,7 @@ The orange line indicates the average distance between stations of each county.
 The nearest distance between two stations mostly fall in the range of 100m - 300m.
 
 
-Notice something bizarre? 
+Notice something bizarre?
 
 Seocho has a flat distribution!
 

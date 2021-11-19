@@ -20,14 +20,14 @@ redirect_from:
 ---
 > University of Minnesota - Twin Cities
 
-Major: Management Information Systems
+>Major: Management Information Systems
 
-Minors: Computer Science, Statistics, Business Analytics
+>Minors: Computer Science, Statistics, Business Analytics
 
 
 ## Data-related Work Experience
 ---
-> Electronic Arts (EA) 2021. 07 – 2021. 08 
+> Electronic Arts (EA) 2021. 07 – 2021. 08
 > Data Analyst Intern
 
 > LINE Corporation 2019. 05 - 2019. 06
@@ -42,12 +42,15 @@ Minors: Computer Science, Statistics, Business Analytics
 
 ## Skills and Certification
 ---
--Language : Python, R, SQL
--DB: SQL Server, MongoDB
--Visualization: Tableau, Power BI
--Misc: Elasticsearch (ELK Stack), Message Queues (RabbitMQ, ZeroMQ)
+>Language : Python, R, SQL, C#
 
--Certificates : SQL Deverloper Certificate, Linux Professional Institute Certificate, Big Data Analytics Management Certificate
+>DB: SQL Server, NoSQL (MongoDB, Elasticsearch)
+
+>Visualization: Tableau, Power BI
+
+>Misc: Elasticsearch (ELK Stack), Message Queues (RabbitMQ, ZeroMQ)
+
+>Certificates : SQL Deverloper Certificate, Linux Professional Institute Certificate, Big Data Analytics Management Certificate
 
 ## Contact Information
 ---
@@ -59,19 +62,20 @@ Minors: Computer Science, Statistics, Business Analytics
 
 
 ---
-A returning senior from military service majoring in MIS and minoring in Business Analytics, Computer Science, and Statistics ✏️✒️
 
-I am constantly evolving my studies and work experience to pursue a career in Data Analytics.
+**I am constantly evolving my studies and work experience to pursue a career in Data Analytics.**
 
-Out of curiosity and for self-improvement, I like to experiment my hypotheses on seemingly petty and yet fascinating phenomena and challenge myself learning new technologies by blogging and building side projects using various tools.
+**Out of curiosity and for self-improvement, I like to experiment my hypotheses on seemingly petty and yet fascinating phenomena and challenge myself learning new technologies by blogging and building side projects using various tools.**
 
- I named my blog "Connecting Dots" because I thought posting the dots I draw everyday on my blog will make a fun story as a whole 💡
+ **I named my blog "Connecting Dots" because I thought posting the dots I draw everyday on my blog will make a fun story as a whole**
 
-My interests lie in:
+**My interests lie in:**
 
->  Machine Learning, Dogs, Soccer
+**- Machine Learning**
+**- Dogs**
+**- Soccer**
 
-Please refer to my [CV](/public/Yang_Jiehwan_Resume.pdf) 😃
+**Learn more about me @ [CV](/public/Yang_Jiehwan_Resume.pdf)** 😃
 
 
 ---
@@ -95,4 +99,3 @@ Please refer to my [CV](/public/Yang_Jiehwan_Resume.pdf) 😃
       $('.me').slick();
     });
   </script>
-  

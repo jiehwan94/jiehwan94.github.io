@@ -11,50 +11,89 @@ comments: true
 published: true
 ---
 
-머신러닝 용어 정리
+**Statistics for Machine Learning**
+- Statistical Reasoning
+- Curse of Dimensionality
+- Frequentist vs. Bayesian Probability
+- Probability Distributions
+- Central Limit Theorem vs. Law of Large Numbers
+- Assessing skewed data
+- Categorical vs. continuous variables
+- Statistical Tests
+- Hypothesis Test
+- p-value; significance level; statistical power; confidence interval
+- t-test
+- ANOVA
+- Chi-square
 
-군집화(CLustering)
+**Machine Learning Models**
+- Parametric/Non-parametric
+- Supervised/Unsupervised
+- Supervised  
+- Loss Function
+- Regularization (what is it and why is it useful?)
+- Underfitting/Overfitting
+- Bias vs. Variance Tradeoff (f-hat and flexibility of model)
+- Datasets – Train, test
+- K-Fold Cross Validation
+- Variable transformations
+- Exploratory Data Analysis – checks and interpretation
+- Histograms, scatterplots, correlation matrix, numerical summary
+- Bagging / Boosting / Stacking
 
-결정트리
+**Simple / Multiple**
+- Collinearity
+- Model assumptions – ex. residuals
+- Interpret Model Output / Model Performance Measures
+- R^2, adjusted R^2
+- p-value for each term
+- Coefficients
+- p-value for model
+- Residuals
+- Outliers
+- F-statistic
+- Accuracy (MSE, RMSE)
 
-SVM
+**Classification**
+- Imbalanced classes
+- Undersampling/Oversampling
+- Decision trees
+- Support vs. Confidence
+- Model Performance Measures
+- Contingency table
+- Confusion Matrix - errors
+- ROC Curve
+- Precision vs. Recall
+- TPR/FPR
+- Lift
+- AUC
+- Accuracy calculation: = (TP+TN)/(TP+TN+FP+FN)
+- Models - understand how they work and how output of each looks visually
+  - K-Nearest Neighbor
+  - Logistic Regression
+  - Random Forest
+  - Support Vector Machine/Classifier – kernel
+  - Naïve Bayes
+  - Neural Network
 
-베이즈 네트워크
+**Model Features/Selection**
+- Wrapper vs. filter method
+- Feature Selection
+- Feature Creation
+- Stepwise Regression (what is difference between forward and backward?)
+- Dimension Reduction
+- PCA
 
-마코프 모델
-
-PCA
-
-MLP
-
-MLE
-
-최대우도 방법
-
-로그우도
-
-확률 분포 추정
-
-베이시안 분류
-
-공분산
-
-아이겐 벡터, 아이겐 벨류
-
-조건부 확률
-
-K-NN
-
-K-means
-
-선형분별 분석
-
-마할라노비스 거리
-
-유클리디언 거리
-
-이상 감지
-
-최소거리분류기
-
-파젠 창
+**Added**
+- One-hot-encoding
+- Mean squared error: MSE
+- Cross-entropy function)
+- Loss Function
+- Cost Function
+- Regularization
+- L1 Regularization (Lasso)
+- L2 Regularization (Ridge)
+- Normalization
+- scaling
+- AutoEncoder
+- Gradient Descent
