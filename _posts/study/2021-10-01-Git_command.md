@@ -15,7 +15,7 @@ published: true
 In machine learning projects, I sometimes run into a situation where I have to write math formulas.
 
 In this post, I will explain the basic concepts of math formulas in python.
-  
+
 
 ## Indexing
 
@@ -31,7 +31,7 @@ print(x[i]) # = 10
 for i in range(len(x)):
   print(x[i])
 ~~~
-This can be represented in a 2D vectors. 
+This can be represented in a 2D vectors.
 $$x_{ij}$$
 
 ~~~python
@@ -125,7 +125,7 @@ abs(y)  # 20
 
 $$\Vert x\Vert$$  
 
-Norm is used to calculate the size of a vector. 
+Norm is used to calculate the size of a vector.
 In python, it's the sum of the square of every element and taking a square root of it.
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-bigtitle: Syncing Atom on Anaconda
+bigtitle: Syncing Atom with Anaconda
 subtitle: 'Settung up Atom on Anaconda (base)'
 categories:
     - blog
@@ -31,7 +31,7 @@ Search "platformio-ide-terminal" and install.
 
 
 
-## Syncing Anaconda to Atom platformio-ide-terminal
+## Syncing Anaconda with Atom platformio-ide-terminal
 ---
 Let's try syncing Anaconda to Atom platformio-ide-terminal
 
