@@ -71,9 +71,9 @@ redirect_from:
 
 **My interests lie in:**
 
-**- Machine Learning**
-**- Dogs**
-**- Soccer**
+- **Machine Learning**
+- **Dogs**
+- **Soccer**
 
 **Learn more about me @ [CV](/public/Yang_Jiehwan_Resume.pdf)** 😃
 
