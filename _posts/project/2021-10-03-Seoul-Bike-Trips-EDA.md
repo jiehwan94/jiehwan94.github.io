@@ -248,7 +248,7 @@ We will look at trips taken by Day of Week, Hour, County, respectively.
 
 #### 1.1 # of Trips by Day of Week
 
-![1](/assets/1.jpg)
+![1](/assets/img/projecct/Seoul/1.jpg)
 
 There were 27.1% more trips taken during weekends than weekdays. During weekdays, people rode more often on Tuesdays and Wednesdays. During weekends, people came out to ride bikes more on Saturday than Sunday.
 
@@ -257,9 +257,9 @@ There were 27.1% more trips taken during weekends than weekdays. During weekdays
 We can presume that the trip pattern might look different between weekdays and weekends. Let's compare them and see if the difference exists.
 
 #### On Weekdays
-![2](/assets/2.jpg)
+![2](/assets/img/projecct/Seoul/2.jpg)
 #### On Weekends
-![3](/assets/3.jpg)
+![3](/assets/img/projecct/Seoul/3.jpg)
 
 We can observe the following:
 
@@ -271,9 +271,9 @@ We can observe the following:
 
 ### Does Hourly Trip Pattern Look Different by County?
 #### Rent
-![4](/assets/4.jpg)
+![4](/assets/img/projecct/Seoul/4.jpg)
 #### Return
-![5](/assets/5.jpg)
+![5](/assets/img/projecct/Seoul/5.jpg)
 
 All counties have very similar hourly trip patterns.
 
@@ -291,7 +291,7 @@ which sum up to the following question:
 Let's extract the trips taken during commute time (morning commute time 8am & evening commute time 18pm; Yes, it's 9-6 in Korea, not 9-5).
 In addition, let's look at the Rent to Return Ratio.
 
-![6](/assets/6.jpg)
+![6](/assets/img/projecct/Seoul/6.jpg)
 
 - In the morning commute time, Seongbuk had 26% more Rents than Returns.
 
@@ -303,7 +303,7 @@ However, the two plots above have a different order of y-axis, so it's quiet dif
 
 Let's visualize just the Rents this time because Returns = Trips - Rents.
 
-![7](/assets/7.jpg)
+![7](/assets/img/projecct/Seoul/7.jpg)
 
 The morning commute bars gradually decrease, while the evening commute bars gradually increase.
 
@@ -323,23 +323,23 @@ Let's first look at the trip distance.
 
 Let's draw the distribution in a boxplot and a distplot.
 
-![8](/assets/8.jpg)
+![8](/assets/img/projecct/Seoul/8.jpg)
 
 The distribution is skewed due to outliers. Let's remove the outliers for the sake of better analysis.
 
-![9](/assets/9.jpg)
+![9](/assets/img/projecct/Seoul/9.jpg)
 
 The distribution is still skewed a little bit, but the median is 1798 meters.
 Let's dig a little deeper by looking at distributions by county.
 
-![10](/assets/10.jpg)
+![10](/assets/img/projecct/Seoul/10.jpg)
 
 - The distributions are skewed in every county.
 - Counties with a longer distance tend to have a higher median as well as more outliers.
 
 #### 2.2 # of Trips by Hour
 
-![11](/assets/11.jpg)
+![11](/assets/img/projecct/Seoul/11.jpg)
 
 Mode: 5 Minutes
 Median: 16 Minutes
@@ -347,14 +347,14 @@ Truncated Mean(5~95%): 23 Minutes
 
 Distributions for distance and hour look very similar. Mode is 5 minutes, and the median is 16 minutes.
 
-![12](/assets/12.jpg)
+![12](/assets/img/projecct/Seoul/12.jpg)
 
 Trip Hour is very similar to Trip distance.
 It's interesting that some counties (Yongsan, Gangnam) have more outliers than others (Gangseo).
 
 Putting both distance and trip hour into maps:
 
-![13](/assets/13.jpg)
+![13](/assets/img/projecct/Seoul/13.jpg)
 
 - Yongsan has the highest distance and trip hours.
 - Distance and Trip Hour have a very strong correlation (0.95). This is not a surprise since a rider has to take a longer trip to go further.
@@ -377,7 +377,7 @@ In short, we want to know how much % of Rents(Returns) in County A are Returned(
 
 We can first check which counties have a high outflow ratio or inflow ratio.
 
-![14](/assets/14.jpg)
+![14](/assets/img/projecct/Seoul/14.jpg)
 
 - Jung (located in the center) has the highest outflow and inflow ratio. Counties in the center of Seoul have both high outflow and inflow ratios.
 - Outflow ratio and inflow ratio have similar distributions. In other words, a county with a high outflow ratio has a high inflow ratio (correlation = 0.97).
@@ -386,8 +386,8 @@ We can first check which counties have a high outflow ratio or inflow ratio.
 
 Let's throw time into the analysis and dig in for more insights
 
-![15](/assets/15.jpg)
-![16](/assets/16.jpg)
+![15](/assets/img/projecct/Seoul/15.jpg)
+![16](/assets/img/projecct/Seoul/16.jpg)
 
 The outflow/inflow ratio has slightly different patterns! This finding triggers a question:
 
@@ -397,14 +397,14 @@ Since we have to look at the outflow/inflow ratio at the same time period, let's
 
 Let's cluster counties with similar patterns in Measure by time period.
 
-![17](/assets/17.jpg)
+![17](/assets/img/projecct/Seoul/17.jpg)
 
 Do you see the 3 clusters!?
 I've named the clusters as A, B, C.
 
 Now, let's plot the Measure by time.
 
-![18](/assets/18.jpg)
+![18](/assets/img/projecct/Seoul/18.jpg)
 
 Red = Outflow > Inflow Green = Outflow < Inflow
 
@@ -428,7 +428,7 @@ One thing that crosses my mind is that these anomalies may be due to distributio
 
 Let's visualize it in a heatmap.
 
-![19](/assets/19.jpg)
+![19](/assets/img/projecct/Seoul/19.jpg)
 
 - Counties with a high outflow ratio during the morning commute time have a high inflow ratio in the evening commute time.
 

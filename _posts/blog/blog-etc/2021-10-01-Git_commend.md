@@ -67,5 +67,5 @@ Push:
 - updates your committed changes and allows you to **send them to the remote repository** where all of the developers can access them
 
 
-![0](/assets/0.jpg)
+![0](/assets/img/Blog/githubpages/0.jpg)
 Image source: https://blog.osteele.com/2008/05/my-git-workflow/
