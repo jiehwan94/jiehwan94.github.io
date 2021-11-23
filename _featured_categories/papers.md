@@ -6,7 +6,7 @@ sitemap: true
 hide_description: false
 order: 4
 description: >
-  논문들
+  Papers
 ---
 
 # Papers
@@ -16,7 +16,7 @@ description: >
 * [PointCloud]{:.heading.flip-title} --- PointCloud
 * [FashionAI]{:.heading.flip-title} --- FashionAI
 * [Pose]{:.heading.flip-title} --- Pose
-* [Paper-Etc]{:.heading.flip-title} --- 기타
+* [Paper-Etc]{:.heading.flip-title} --- etc
 
 
 [PointCloud]: /pointcloud/

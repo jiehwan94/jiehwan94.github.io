@@ -1,7 +1,6 @@
 ---
 layout: post
-bigtitle:  "MachineLearning 용어 사전"
-subtitle:   "MachineLearning 용어 정리"
+bigtitle:  "Machine Learning Summary"
 categories:
     - blog
     - mldl

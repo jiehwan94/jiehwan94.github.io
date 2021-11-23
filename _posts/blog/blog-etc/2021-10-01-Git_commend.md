@@ -5,7 +5,7 @@ categories:
     - blog
     - blog-etc
 tags:
-    - pose
+    - git
 comments: true
 published: true
 ---

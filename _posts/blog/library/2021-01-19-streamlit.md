@@ -116,9 +116,6 @@ st.line_chart(dr.Volume)
 
 <br>
 
-필요한 파일들은 내 git repo에서 다운받으면 되겠다.
-
-> [내 레파지토리](https://github.com/khw11044/second-streamlit-app)
 
 ## Reference
 ---

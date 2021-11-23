@@ -27,17 +27,14 @@ redirect_from:
 
 ## Data-related Work Experience
 ---
-> Electronic Arts (EA) 2021. 07 – 2021. 08
-> Data Analyst Intern
+> [Electronic Arts (EA) 2021. 07 – 2021. 08 \| Data Analyst Intern](https://jiehwan94.github.io/project/2021-08-30-QA-Internship-Project/)
 
-> LINE Corporation 2019. 05 - 2019. 06
-> Statistical Data Analyst Intern
 
-> Coyote Logistics (UPS Company) 2016. 05 - 2016. 08
-> Data Scientist Intern
+> LINE Corporation 2019. 05 - 2019. 06 \| Statistical Data Analyst Intern
 
-> Coyote Logistics (UPS Company) 2015. 06 - 2015. 08
-> Business Intelligence Engineer Intern
+> [Coyote Logistics (UPS Company) 2016. 05 - 2016. 08 \| Data Scientist Intern](https://jiehwan94.github.io/project/2016-08-29-DS-Internship-Project/)
+
+> [Coyote Logistics (UPS Company) 2015. 06 - 2015. 08 \| Business Intelligence Engineer Intern](https://jiehwan94.github.io/project/2015-08-30-BI-Internship-Project/)
 
 
 ## Skills and Certification

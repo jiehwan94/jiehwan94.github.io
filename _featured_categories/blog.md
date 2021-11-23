@@ -13,11 +13,11 @@ description: >
 
 ## 카테고리
 
-* [GithubPages]{:.heading.flip-title} --- 깃허브 블로그
-* [Library]{:.heading.flip-title} --- Pytorch등 각종 라이브러리 공부
-* [ML/DL]{:.heading.flip-title} --- ML/DL 개념 공부
-* [Papers]{:.heading.flip-title} --- 논문 읽기, 논문 공부
-* [blog-etc]{:.heading.flip-title} --- 기타, 이것저것
+* [GithubPages]{:.heading.flip-title} --- Github Blog
+* [Library]{:.heading.flip-title} --- Study Libraries
+* [ML/DL]{:.heading.flip-title} --- ML Concept
+* [Papers]{:.heading.flip-title} --- Papers
+* [blog-etc]{:.heading.flip-title} --- etc.
 
 [GithubPages]: /githubpages/
 [Library]: /library/
