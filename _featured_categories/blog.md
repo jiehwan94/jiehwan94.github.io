@@ -6,12 +6,12 @@ sitemap: true
 hide_description: false
 order: 4
 description: >
-  블로그 주요 포스팅 공간
+  Blog Posts
 ---
 
 # Blog
 
-## 카테고리
+## Category
 
 * [GithubPages]{:.heading.flip-title} --- Github Blog
 * [Library]{:.heading.flip-title} --- Study Libraries
