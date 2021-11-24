@@ -40,7 +40,7 @@ The potential beneficiary of information about SE's bug fix performance is the S
 We can compare the bug fix performance by all SEs vs. SE vs. SE Team. Again, bug fix performance is measured by 4 KPIs:
 
 1.	Average number of bugs fixed per SE
-2.	Time Taken per bug fix
+2.	Average time taken per bug fix
 3.	Critical impact of bugs
 4.	Bug Fix Fail Rate
 
@@ -53,7 +53,7 @@ This page can be utilized:
 
 This page displays the overall Bug Fix Performance by each milestone. The Bug Fix Performance is evaluated by the following KPIs:
 1.	Average number of bugs fixed per SE
-2.	Time Taken per bug fix
+2.	Average time taken per bug fix
 3.	Critical impact of bugs
 4.	Bug Fix Fail Rate
 This page can be utilized:
