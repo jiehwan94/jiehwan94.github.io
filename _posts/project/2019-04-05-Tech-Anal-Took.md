@@ -1,6 +1,6 @@
 ---
 layout: post
-bigtitle:  'Technical Analysis Tool using Shiny'
+bigtitle:  '[Finance] Technical Analysis Tool using Shiny'
 subtitle:   
 categories:
     - project

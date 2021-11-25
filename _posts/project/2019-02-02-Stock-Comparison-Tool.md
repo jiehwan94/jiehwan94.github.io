@@ -1,6 +1,6 @@
 ---
 layout: post
-bigtitle:  'Interactive Stock Comparison Tool using Shiny'
+bigtitle:  '[Finance] Interactive Stock Comparison Tool using Shiny'
 subtitle:   
 categories:
     - project

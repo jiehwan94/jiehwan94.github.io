@@ -1,6 +1,6 @@
 ---
 layout: post
-bigtitle:  'Exploring the Legitimacy of NBA All-star Voting Process'
+bigtitle:  '[Finance] Web Scraping Financial Data'
 subtitle:   
 categories:
     - project

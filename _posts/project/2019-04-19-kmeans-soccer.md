@@ -1,6 +1,6 @@
 ---
 layout: post
-bigtitle:  'How K-means Clustering Could Help Recruit Soccer Players'
+bigtitle:  '[Sports] How K-means Clustering Could Help Recruit Soccer Players'
 subtitle:   
 categories:
     - project

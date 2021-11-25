@@ -1,6 +1,6 @@
 ---
 layout: post
-bigtitle:  'Exploring the Legitimacy of NBA All-star Voting Process'
+bigtitle:  '[Sports] Exploring the Legitimacy of NBA All-star Voting Process'
 subtitle:   
 categories:
     - project
