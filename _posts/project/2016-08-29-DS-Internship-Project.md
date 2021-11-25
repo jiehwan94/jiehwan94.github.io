@@ -6,7 +6,7 @@ categories:
     - project
     - internship
 tags:
-    - intern
+    - internship
 related_posts:
     - _posts/project/2015_Intern_PJT.md
 published: true

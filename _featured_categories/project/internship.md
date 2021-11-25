@@ -1,13 +1,13 @@
 ---
 layout: post
-category: blog
-bigtitle: Papers
+category: project
+bigtitle: Internship
 description: >
-  논문읽기, 논문 공부
+  Sharing my internship experience
 related_posts:
   -
 addons:
   - comments
 list: true
-order: 4
+order: 1
 ---

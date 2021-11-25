@@ -1,13 +1,13 @@
 ---
 layout: post
-category: blog
-bigtitle: Papers
+category: project
+bigtitle: Side-Projects
 description: >
-  논문읽기, 논문 공부
+  Sharing my side projects
 related_posts:
   -
 addons:
   - comments
 list: true
-order: 4
+order: 1
 ---

@@ -7,7 +7,6 @@ description: >
 related_posts:
   -
 addons:
-  - related
   - comments
 list: true
 order: 5

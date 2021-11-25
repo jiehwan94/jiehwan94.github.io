@@ -54,6 +54,11 @@ menu:
     url:               /about/
   - title:             Project
     url:               /project/
+    submenu:
+      - title:  Internship
+        url:      /internship/
+      - title:  Side-Projects
+        url:      /side-projects/
   - title:             Study
     url:               /study/
   - title:             Blog

@@ -18,5 +18,5 @@ description: >
 * [Side-Projects]{:.heading.flip-title} --- Side Projects
 
 
-[Internship]: /intern/
-[Side-Projects]: /side-project/
+[Internship]: /internship/
+[Side-Projects]: /side-projects/
