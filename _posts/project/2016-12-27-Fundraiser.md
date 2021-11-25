@@ -4,6 +4,7 @@ bigtitle:  'Fundraiser for Childhood Cancer: Reflection on Web App Improvement'
 subtitle:   
 categories:
     - project
+    - side-projects
 tags:
     - side-projects
 published: true

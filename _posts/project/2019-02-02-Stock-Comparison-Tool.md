@@ -4,6 +4,7 @@ bigtitle:  '[Finance] Interactive Stock Comparison Tool using Shiny'
 subtitle:   
 categories:
     - project
+    - side-projects
 tags:
     - finance
     - side-projects

@@ -4,6 +4,7 @@ bigtitle:  '[Finance] Technical Analysis Tool using Shiny'
 subtitle:   
 categories:
     - project
+    - side-projects
 tags:
     - finance
     - side-projects

@@ -4,6 +4,7 @@ bigtitle:  'Why the Stars Are Disappearing: US City Lights & Population'
 subtitle:   
 categories:
     - project
+    - side-projects
 tags:
     - side-projects
 published: true

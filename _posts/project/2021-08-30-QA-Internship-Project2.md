@@ -4,6 +4,7 @@ bigtitle:  '[Internship] QA Data Analyst Internship Project: SE’s Bug Fix Perf
 subtitle:   
 categories:
     - project
+    - internship
 tags:
     - intern
 related_posts:

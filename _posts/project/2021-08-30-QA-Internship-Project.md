@@ -4,6 +4,7 @@ bigtitle:  '[Internship] QA Data Analyst Internship Project: Using Text Mining t
 subtitle:   
 categories:
     - project
+    - internship
 tags:
     - intern
 related_posts:

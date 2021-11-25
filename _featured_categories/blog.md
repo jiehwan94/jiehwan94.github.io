@@ -5,8 +5,6 @@ bigtitle: Blog
 sitemap: true
 hide_description: false
 order: 4
-description: >
-  Blog Posts
 ---
 
 # Blog

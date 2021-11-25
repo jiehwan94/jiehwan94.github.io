@@ -4,6 +4,7 @@ bigtitle:  '[Internship] BI Engineer Internship Project: ELK Stack for Self-Repo
 subtitle:   
 categories:
     - project
+    - internship
 tags:
     - intern
 related_posts:

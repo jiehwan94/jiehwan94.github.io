@@ -4,6 +4,7 @@ bigtitle:  '[Finance] Web Scraping Financial Data'
 subtitle:   
 categories:
     - project
+    - side-projects
 tags:
     - finance
     - side-projects

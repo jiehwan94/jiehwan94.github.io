@@ -4,6 +4,7 @@ bigtitle:  '[Sports] How K-means Clustering Could Help Recruit Soccer Players'
 subtitle:   
 categories:
     - project
+    - side-projects
 tags:
     - sports-analytics
     - side-projects

@@ -4,6 +4,7 @@ bigtitle:  '[Sports] Exploring the Legitimacy of NBA All-star Voting Process'
 subtitle:   
 categories:
     - project
+    - side-projects
 tags:
     - sports-analytics
 related_posts:

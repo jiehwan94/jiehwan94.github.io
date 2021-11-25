@@ -4,6 +4,7 @@ bigtitle:  '[Seoul Bike] 01. Bike Station EDA'
 subtitle:   
 categories:
     - project
+    - side-projects
 tags:
     - seoul_bike
     - side-projects

@@ -4,6 +4,7 @@ bigtitle:  'Uber User Analysis'
 subtitle:   
 categories:
     - project
+    - side-projects
 tags:
     - side-projects
 

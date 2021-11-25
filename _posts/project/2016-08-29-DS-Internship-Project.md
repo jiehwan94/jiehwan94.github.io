@@ -4,6 +4,7 @@ bigtitle:  '[Internship] Data Science Internship Project: Predicting bounce load
 subtitle:   
 categories:
     - project
+    - internship
 tags:
     - intern
 related_posts:
