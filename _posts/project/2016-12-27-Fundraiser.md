@@ -101,7 +101,7 @@ The new shiny app promotes a sense of competition.
 
 Here is a quick video of the shiny application I built.
 
-[![IMAGE ALT TEXT](/assets/img/project/Fundraiser/11.PNG)](https://www.youtube.com/watch?v=tKa5p1ybGSE "Shiny Web App Demo__Fundraiser for Childhood Cancer")
+[![IMAGE ALT TEXT](/assets/img/project/Fundraiser/11.png)](https://www.youtube.com/watch?v=tKa5p1ybGSE "Shiny Web App Demo__Fundraiser for Childhood Cancer")
 
 I added the following features:
 

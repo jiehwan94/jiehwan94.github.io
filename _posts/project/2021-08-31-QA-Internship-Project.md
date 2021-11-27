@@ -41,18 +41,43 @@ Currently, a bug goes through a series of processes from the occurrence of a bug
 
 In the bug process above, QA Tester and SE Lead do pre-investigations
 
-![2](/assets/img/project/2021_Intern_PJT/2.png)
-![3](/assets/img/project/2021_Intern_PJT/3.png)
+
+<div class="me">
+    <div><img src= "/assets/img/project/2021_Intern_PJT/2.png"></div>
+    <div><img src= "/assets/img/project/2021_Intern_PJT/3.png"></div>
+</div>
+
+  <script>
+    $(document).ready(function(){
+      $('.me').slick();
+    });
+  </script>
+
+
+<!-- ![2](/assets/img/project/2021_Intern_PJT/2.png)
+![3](/assets/img/project/2021_Intern_PJT/3.png) -->
 -	**QA Tester**: try different filters and type in different keywords to find if there have been any similar bugs in the past which is time consuming.
 -	**SE Lead**: checks capacity and competency of SE and assigns the bug to the SE who is available and seems most suitable.
 
 ---
 
 ## Project Goal
-![6](/assets/img/project/2021_Intern_PJT/6.png)
+<!-- ![6](/assets/img/project/2021_Intern_PJT/6.png)
 
 
-![7](/assets/img/project/2021_Intern_PJT/7.png)
+![7](/assets/img/project/2021_Intern_PJT/7.png) -->
+
+<div class="me">
+    <div><img src= "/assets/img/project/2021_Intern_PJT/6.png"></div>
+    <div><img src= "/assets/img/project/2021_Intern_PJT/7.png"></div>
+</div>
+
+  <script>
+    $(document).ready(function(){
+      $('.me').slick();
+    });
+  </script>
+
 
 Our goal was to build a web application that finds similarities between a new and bugs in the past which will bring about the following benefits:
 

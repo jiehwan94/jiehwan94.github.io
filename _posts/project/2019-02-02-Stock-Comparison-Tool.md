@@ -29,7 +29,10 @@ Here is a quick video of the shiny app I built:
 ## Key Functions
 
 - **Auto complete tickers**
-![5](/assets/img/project/Finance/Stock_Comparison_Tool/1.GIF)
+
+![5](/assets/img/project/Finance/Stock_Comparison_Tool/1.gif)
+
+
 >selectizeInput(
               'foo', "Multi-select", choices=my_autocomplete_list, multiple=TRUE)
 
@@ -37,7 +40,8 @@ The auto completion feature is simply done by the function selectizeInput. my_au
 
 - **Interactive Stock Chart**
 
-![5](/assets/img/project/Finance/Stock_Comparison_Tool/2.GIF)
+![5](/assets/img/project/Finance/Stock_Comparison_Tool/2.gif)
+
 >SPY <- adjustOHLC(x)
     SPY.SMA.10 <- SMA(Cl(SPY), n = 5)
     SPY.SMA.200 <- SMA(Cl(SPY), n = 100)
@@ -65,12 +69,17 @@ The auto completion feature is simply done by the function selectizeInput. my_au
 The highchart package does a beautiful job displaying stock data. I also added volume, weighted average, oscillator, sell, and buy level on the chart as well.
 
 - **Line Chart**
-![5](/assets/img/project/Finance/Stock_Comparison_Tool/3.GIF)
+
+
+![5](/assets/img/project/Finance/Stock_Comparison_Tool/3.gif)
+
 
 Highchart package provides a line chart feature as well. As for accessing the growth data, I used the saved csv file with financial information for each stock. Please refer to my previous post for more information about how to retrieve financial data.
 
 - **Radar Chart**
 
-![5](/assets/img/project/Finance/Stock_Comparison_Tool/5.GIF)
 
-This part was a little more tricky than other features as I had to set clear standards of scoring for different dimensions, e.g., PER, ROE, EPS, ROA, pegRatio, Beta. In terms of scoring, I had to examine the quartiles of all stocks for each variable, divide it into 10 different score ranges, assign each stock a score from 1 to 10 depending on which score range it falls into. For example, AAPL scored 7 on ROE as it fell in a higher ROE score range than that of FB and PEP.
+![5](/assets/img/project/Finance/Stock_Comparison_Tool/5.gif)
+
+
+This part was a little tricky as I had to set clear standards of scoring for different dimensions, e.g., PER, ROE, EPS, ROA, pegRatio, Beta. In terms of scoring, I had to examine the quartiles of all stocks for each variable, divide it into 10 different score ranges, assign each stock a score from 1 to 10 depending on which score range it falls into. For example, AAPL scored 7 on ROE as it fell in a higher ROE score range than that of FB and PEP.

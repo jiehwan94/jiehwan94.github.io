@@ -1,6 +1,6 @@
 ---
 layout: post
-bigtitle:  "Machine Learning Summary"
+bigtitle:  "Basic Concepts in ML"
 categories:
     - blog
     - mldl
@@ -10,7 +10,7 @@ comments: true
 published: true
 ---
 
-**Statistics for Machine Learning**
+**Statistics for ML**
 - Statistical Reasoning
 - Curse of Dimensionality
 - Frequentist vs. Bayesian Probability
@@ -25,7 +25,7 @@ published: true
 - ANOVA
 - Chi-square
 
-**Machine Learning Models**
+**ML Models**
 - Parametric/Non-parametric
 - Supervised/Unsupervised
 - Supervised  
@@ -40,7 +40,7 @@ published: true
 - Histograms, scatterplots, correlation matrix, numerical summary
 - Bagging / Boosting / Stacking
 
-**Simple / Multiple**
+**Simple / Multiple Regression**
 - Collinearity
 - Model assumptions – ex. residuals
 - Interpret Model Output / Model Performance Measures
@@ -93,6 +93,6 @@ published: true
 - L1 Regularization (Lasso)
 - L2 Regularization (Ridge)
 - Normalization
-- scaling
+- Scaling
 - AutoEncoder
 - Gradient Descent

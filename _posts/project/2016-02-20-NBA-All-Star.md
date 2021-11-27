@@ -16,7 +16,7 @@ published: true
 # Exploring the Legitimacy of NBA All-star Voting Process
 
 ---
-![0](/assets/img/project/NBA/0.JPG)
+![0](/assets/img/project/NBA/0.jpg)
 
 ## Background Information and Motivations
 
@@ -60,7 +60,7 @@ The next step involved working with missing data and dirty data. GS (games start
 
 The final dataset that had been “cleaned” up has a total of 36 variables. Only 32 out of those 36 variables will be utilized as predictors for the analysis. There was a total of 685 All-star player appearances between 1980 to 2009, except 1998. Summary statistics on those 32 predictors are shown below:
 
-![1](/assets/img/project/NBA/1.PNG)
+![1](/assets/img/project/NBA/1.png)
 
 Note that predictors that start with "post" are basketball stats during post-season.
 
@@ -71,7 +71,7 @@ Note that predictors that start with "post" are basketball stats during post-sea
 
  ### All-star (Blue) vs. Non All-star (Orange)
 
-![2](/assets/img/project/NBA/2.PNG)
+![2](/assets/img/project/NBA/2.png)
 
 I believe that teams play an important part in All Star draft process. More often than not, basketball players from a world-famous popular team would be more likely to get on the All Star team of the year. The team fan base contributes to a big part of the votes.
 
@@ -84,35 +84,35 @@ Due to limited resource, I am unable to capture the semantic facts about the tea
 Note that the following charts on the right side are from post seasons.
 
 ### Three point Throw Rate
-![3](/assets/img/project/NBA/3.PNG)
+![3](/assets/img/project/NBA/3.png)
 
 - Blue line shows all star.
 - Green line shows non all star players rate.
 - Orange line shows all players.
 
 ### Assists
-![4](/assets/img/project/NBA/4.PNG)
+![4](/assets/img/project/NBA/4.png)
 
 ### Block
-![5](/assets/img/project/NBA/5.PNG)
+![5](/assets/img/project/NBA/5.png)
 
 ### Field Goal Rate
-![6](/assets/img/project/NBA/6.PNG)
+![6](/assets/img/project/NBA/6.png)
 
 ### Free Throw Rate
-![7](/assets/img/project/NBA/7.PNG)
+![7](/assets/img/project/NBA/7.png)
 
 ### Game Played
-![8](/assets/img/project/NBA/8.PNG)
+![8](/assets/img/project/NBA/8.png)
 
 ### Playtime
-![9](/assets/img/project/NBA/9.PNG)
+![9](/assets/img/project/NBA/9.png)
 
 ### Points Made
-![10](/assets/img/project/NBA/10.PNG)
+![10](/assets/img/project/NBA/10.png)
 
 ### Steals
-![11](/assets/img/project/NBA/11.PNG)
+![11](/assets/img/project/NBA/11.png)
 
 Overall, the visualization demonstrates the All-star players do perform better in all aspects of basketball statistics. Furthermore, there was an uneven distribution in teams out of all All-star players.  More often than not, basketball players from a world-famous popular team would be more likely to get on the All Star team of the year. The team fan base contributes to a big part of the votes. The graphs clearly show the disparity in basketball statistics between All-star players and non-All-star players.
 
@@ -146,7 +146,7 @@ I explored the strength of decision trees by changing the minsplit parameters be
               + PostthreeAttempted+ PostthreeMade,
               data=dat_train,method = "class",control = rpart.control(minsplit = 20))
 
-![13](/assets/img/project/NBA/13.PNG)
+![13](/assets/img/project/NBA/13.png)
 
 Try minsplit = 10:
 >tree_2<-rpart(Allstar ~ GP+ minutes+ points+ rebounds+ assists+ steals+ blocks+ turnovers
@@ -158,7 +158,7 @@ Try minsplit = 10:
 rpart.plot(tree_2,type = 1,extra=2,under=TRUE)
 title(sub="Classifcation Tree with minsplit =10 ")
 
-![14](/assets/img/project/NBA/14.PNG)
+![14](/assets/img/project/NBA/14.png)
 
 Try minsplit = 60:
 > tree_3<-rpart(Allstar ~ GP+ minutes+ points+ rebounds+ assists+ steals+ blocks+ turnovers
@@ -170,7 +170,7 @@ Try minsplit = 60:
 rpart.plot(tree_3,type = 1,extra=2,under=TRUE)
 title(sub ="Classifcation Tree with minsplit =60 ")
 
-![15](/assets/img/project/NBA/15.PNG)
+![15](/assets/img/project/NBA/15.png)
 
 Let's look at how each minsplit performed.
 >dat_test1<- dat_test
@@ -184,7 +184,7 @@ confusionmatrix2<-table(dat_test2\$Allstar,dat_test2\$pred,dnn = c("Actual","Pre
 confusionmatrix3<-table(dat_test3\$Allstar,dat_test3\$pred,dnn = c("Actual","Predicted"))
 
 
-![12](/assets/img/project/NBA/12.PNG)
+![12](/assets/img/project/NBA/12.png)
 
 Let's take confusionmatrix1 and calculate its accuracy, precision, and recall.
 
@@ -198,7 +198,7 @@ Let's take confusionmatrix1 and calculate its accuracy, precision, and recall.
 
 I also utilized k-nearest neighbors (k-nn) method to compare which method performs better in predicting all-star players. The idea of k-nn is to identify k observations in the training dataset that are similar to a new record into a class, assigning the new record to the predominant class among these neighbors. I thought k-nn would be another great classification method to use because it does not make assumption about the form of the relationship between the class membership and the predictors. It does not involve estimation of parameters in an assumed function form, such as the linear form in linear regression. Instead k-nn method draws information from similarities between the predictor values of the records in the data set.
 
-![16](/assets/img/project/NBA/16.PNG)
+![16](/assets/img/project/NBA/16.png)
 
 ---
 ## Conclusion

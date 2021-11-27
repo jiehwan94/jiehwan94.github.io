@@ -8,7 +8,7 @@ categories:
 tags:
     - atom
 comments: true
-date: '2020-12-21 14:45:51 +0900'
+date: '2021-09-25 14:45:51 +0900'
 related_posts:
   - category/_posts/etc/2020-12-21-markdown-tutorial.md
   - category/_posts/etc/2020-12-21-markdown-tutorial2.md

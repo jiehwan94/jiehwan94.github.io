@@ -249,7 +249,7 @@ We will look at trips taken by Day of Week, Hour, County, respectively.
 
 #### 1.1 # of Trips by Day of Week
 
-![image1](/assets/img/project/Seoul/1.JPG)
+![image1](/assets/img/project/Seoul/1.jpg)
 
 There were 27.1% more trips taken during weekends than weekdays. During weekdays, people rode more often on Tuesdays and Wednesdays. During weekends, people came out to ride bikes more on Saturday than Sunday.
 
@@ -258,9 +258,9 @@ There were 27.1% more trips taken during weekends than weekdays. During weekdays
 We can presume that the trip pattern might look different between weekdays and weekends. Let's compare them and see if the difference exists.
 
 #### On Weekdays
-![2](/assets/img/project/Seoul/2.JPG)
+![2](/assets/img/project/Seoul/2.jpg)
 #### On Weekends
-![3](/assets/img/project/Seoul/3.JPG)
+![3](/assets/img/project/Seoul/3.jpg)
 
 We can observe the following:
 
@@ -272,9 +272,9 @@ We can observe the following:
 
 ### Does Hourly Trip Pattern Look Different by County?
 #### Rent
-![4](/assets/img/project/Seoul/4.JPG)
+![4](/assets/img/project/Seoul/4.jpg)
 #### Return
-![5](/assets/img/project/Seoul/5.JPG)
+![5](/assets/img/project/Seoul/5.jpg)
 
 All counties have very similar hourly trip patterns.
 
