@@ -82,7 +82,7 @@ In the bug process above, QA Tester and SE Lead do pre-investigations
 Our goal was to build a web application that finds similarities between a new and bugs in the past which will bring about the following benefits:
 
 1.	**QA Testers** can determine whether or not to create a ticket for a new bug based on its similarities to bugs in history
-    - Find bugs in order of its similarities to the new bug with a search
+    - Find bugs in order of its similarities to the new bug
     - Reduces bug comparison time
     -	Avoids duplicate bug tickets.
 
@@ -111,8 +111,6 @@ Technologies used:
 >**Auto-compmlete search: This is where a user enters a bug keyword or BugID**
 ![8](/assets/img/project/2021_Intern_PJT/8.png)
 
->**Filters: Users can add filters on the left sidebar pane**
-![9](/assets/img/project/2021_Intern_PJT/9.png)
 
 ****
 
@@ -128,13 +126,13 @@ Technologies used:
 
 ## Improvements
 
--	The app does not handle typos well currently. For example, if you were to search for “uniform” Google would search for “uniform”. Since the bug descriptions are written in Korean, I was able to find libraries that would enable such settings. If we can accumulate enough data about which words users are likely to make typos, we would expect to solve this issue to some extent.
+-	The app does not handle typos well currently. For example, Google can handle typos like“unifomr” and automatically generate results for “uniform”. Since the bug descriptions are written in Korean, I was not able to find libraries that would enable such settings. If we can accumulate enough data about which words users are likely to make typos, we would expect to solve this issue to some extent.
 
 ---
 
 ## In Retrospect
 
 -	Through the experience of leading a project from scratch to the end, I realized the high standards a product must meet to be published in a industry setting and the importance of earning buy-ins from stakeholders.
-- It was fun having informational interviews with potential users from diverse backgrounds to get feedbacks and how to incorporate those feedback into the application.
+- It was fun having informational interviews with potential users from diverse backgrounds to get feedbacks and incorporating those feedback into the application.
 -	I enjoyed learning about the process of how bugs are generated, reported to our system, fixed and finally closed by collaborative efforts of professionals across the teams.
-- I really appreciate my manager, colleagues, and intern friends who helped me throughout the journey. My mentor was always there for me to ask questions like where to locate resources or who to ask for questions I had. I would like to thank my manager as well for granting me permission to explore a variety of data and lead projects that I proposed. Everyone was very willing to take time to answer my questions and put up with my curiosity. I learned not only the technical skills to become a good data analyst, but I also really cherish the opportunity to think about how important it is to build relationship with my colleagues with whom I spend 1/3 of my day!
+- I really appreciate my manager, colleagues, and intern friends who helped me throughout the journey. My mentor was always there for me to ask questions like where to locate resources or who to ask for questions I had. I would like to thank my manager as well for granting me permission to explore a variety of data, attend virtual meetings at other studios, and lead projects that I proposed. Everyone was very willing to take time to answer my questions and put up with my curiosity. I not only learned and practiced the technical skills to become a good data analyst, but I also learn how important it is to build a good relationship with my colleagues with whom I spend 1/3 of my day! Not that I had a bad relationship with anyone, it's just really fun working with people with whom you can trust.

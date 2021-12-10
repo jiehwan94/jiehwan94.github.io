@@ -9,6 +9,7 @@ tags:
     - seoul_bike
     - side-projects
     - GPS
+    - API
 related_posts:
     - _posts/project/2021-11-11-Seoul_Bike_Station_EDA.md
 published: true
@@ -33,6 +34,8 @@ On top of the GPS/location feature from station dataset, the trips dataset has a
 ## Data
 
 In this post, we will explore the trips taken in February of 2021.
+
+I collected the data in real-time by using the API provided on the [Seoul OpenAPI website](https://data.seoul.go.kr/dataList/datasetList.do).
 
 With the datasets I found in multiple sources, I preprocessed and merged them together as shown below. Since we will be using county names in later part of this analysis, I translated the county names into English.
 
