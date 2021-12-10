@@ -33,9 +33,7 @@ On top of the GPS/location feature from station dataset, the trips dataset has a
 
 ## Data
 
-In this post, we will explore the trips taken in February of 2021.
-
-I collected the data in real-time by using the API provided on the [Seoul OpenAPI website](https://data.seoul.go.kr/dataList/datasetList.do).
+I collected the data by using the API provided on the [Seoul OpenAPI website](https://data.seoul.go.kr/dataList/datasetList.do). They also provide csv datasets for past trips, but I wanted to get the data in real-time so ended up using the API to fetch data.
 
 With the datasets I found in multiple sources, I preprocessed and merged them together as shown below. Since we will be using county names in later part of this analysis, I translated the county names into English.
 
