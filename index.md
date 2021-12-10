@@ -45,7 +45,7 @@ redirect_from:
 
 >Visualization: Tableau, Power BI
 
->Misc: Elasticsearch (ELK Stack), Message Queues (RabbitMQ, ZeroMQ)
+>Misc. Tools: Elasticsearch (ELK Stack), MongoDB, Message Queues (RabbitMQ, ZeroMQ), API, Hadoop
 
 >Certificates : SQL Deverloper Certificate, Linux Professional Institute Certificate, Big Data Analytics Management Certificate
 
