@@ -481,16 +481,16 @@ Let's visualize it in a heatmap.
 
 
 Counties with High Frequency of Trips
-- Gangnam, Gangseo
+  - Gangnam, Gangseo
 
 County with High Distance and Trip Hour
-- Yongsan
+  - Yongsan
 
 County with High Outflow, Inflow Ratio
-- Jung
+  - Jung
 
 County with Drastic Change in Outflow, Inflow Ratios During Commute Time
-- Geumcheon
+  - Geumcheon
 
 
 In the next episode, I will build predictive models to predict the number of bikes available at each station at a specific time of the day.
