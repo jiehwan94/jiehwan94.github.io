@@ -1,6 +1,6 @@
 ---
 layout: post
-bigtitle:  '[Seoul Bike] 02. Bike Trips EDA'
+bigtitle:  '[Seoul Bike] 02. Clustering Counties by Trip Pattern'
 subtitle:   
 categories:
     - project
@@ -16,7 +16,7 @@ published: true
 ---
 
 
-# [Seoul Bike] 02. Bike Trips EDA
+# [Seoul Bike] 02. Clustering Counties by Trip Pattern
 
 ## Intro
 
@@ -24,7 +24,7 @@ In our last episode, we looked at Seoul Bike Stations across the city of Seoul.
 
 In this post, we will explore the trips taken in February of 2021.
 
-On top of the GPS/location feature from station dataset, the trips dataset has a time feature (time of rent, time of return) which poses exciting questions like
+On top of the GPS/location feature from station dataset, the trips dataset has a time feature (time of rent, time of return) which introduces interesting questions.
 
 - How does trips differ by counties, hours of the day, or days of the week?
 - Do counties or stations have distinct characteristics with which we can cluster them into a few groups?
@@ -248,7 +248,7 @@ df.shape
 Let's start with the simplest one.
 We will look at trips taken by Day of Week, Hour, County, respectively.
 
-#### 1.1 # of Trips by Day of Week
+### 1.1 # of Trips by Day of Week
 
 
 ![image1](/assets/img/project/Seoul/1.jpg)
@@ -272,11 +272,10 @@ We can presume that the trip pattern might look different between weekdays and w
 ![3](/assets/img/project/Seoul/3.jpg)
 
 
-We can observe the following:
 
-- On Weekdays, relatively more trips are taken at 8 am and 18 pm. This may be due to commute time. Yes, people work 9 to 6 in Korea (one more hour than 9-5 in the US).
+- On Weekdays, people ride more at 8 am and 18 pm. Since people work 9 to 6 in Korea (one more hour than 9-5 in the US), this pattern may be due to commute time.
 
-- On Weekends, more trips are taken as it gets late in the afternoon and hits the peak around 18pm. This may vary depending on the season and the sunset time.
+- On Weekends, people ride more late in the afternoon and hit the peak around 18pm. This may vary depending on the season and the sunset time.
 
 - Otherwise, except for commute time. Rent > Return in the afternoon and Rent < Return in the evening.
 
@@ -294,14 +293,11 @@ We can observe the following:
 
 All counties have very similar hourly trip patterns.
 
-The dark colors in commute time sticks out which makes me wonder:
-- In which county is the # of Rent > # of Return?
-
-- In which county is the # of Rent < # of Return?
-
-which sum up to the following question:
+The dark colors in commute time stick out which makes me wonder:
 
 - Are there counties that have higher Rent or Return during commute time?
+
+In the assumption that the purpose of trips during commute time is for commuting and they ride from one county to another, the bike management team can place more bikes in counties (or stations) in line with the demands.
 
 #### Are there counties that have higher Rent or Return during commute time?
 
@@ -429,9 +425,9 @@ Let's throw time into the analysis and dig in for more insights
 ![16](/assets/img/project/Seoul/16.jpg)
 
 
-The outflow/inflow ratio has slightly different patterns! This finding triggers a question:
+The outflow/inflow ratios have slightly different patterns! This finding triggers a new question:
 
-- Are there counties that have similar outflow/inflow ratio depending on time?
+- Can we cluster counties that have similar outflow/inflow ratios depending on time?
 
 Since we have to look at the outflow/inflow ratio at the same time period, let's take Measure = Inflow Ratio - Outflow Ratio If Measure > 0, more riders are coming to the county in that time period. If Measure < 0, more riders are going out of the county in that time period.
 
@@ -442,7 +438,6 @@ Let's cluster counties with similar patterns in Measure by time period.
 
 
 Do you see the 3 clusters!?
-I've named the clusters as A, B, C.
 
 Now, let's plot the Measure by time.
 
@@ -450,7 +445,9 @@ Now, let's plot the Measure by time.
 ![18](/assets/img/project/Seoul/18.jpg)
 
 
-Red = Outflow > Inflow Green = Outflow < Inflow
+**Red = Outflow > Inflow**
+
+**Green = Outflow < Inflow**
 
 
 The clusters make sense!
@@ -460,13 +457,13 @@ The clusters make sense!
 - Cluster B is completely opposite of Cluster A. These counties are well known for being residential areas.
 - Cluster C does not belong to either Cluster A or B. Patterns are not as clear as other clusters.
 
-Some abnormalities(?) are that:
+Some abnormalities are that:
 
 - Jung has significantly high outflow ratio from 2 - 4 am
 
 - Gangbuk has very high inflow ratio at 3 am
 
-One thing that crosses my mind is that these anomalies may be due to distribution of bikes to stations in other counties by trucks.
+These abnormalities may be due to the fact that they move and distribute bikes to other counties during those hours.
 
 #### 3.3. How do Seoul-ers in Each County Commute?
 
@@ -480,9 +477,8 @@ Let's visualize it in a heatmap.
 
 ---
 
-### Summary
+## Summary
 
-Instead of summarizing everything, these are the counties with distinct characteristics:
 
 Counties with High Frequency of Trips
 - Gangnam, Gangseo

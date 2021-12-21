@@ -31,19 +31,19 @@ published: true
 
 ![1](/assets/img/project/2016_Intern_PJT/1.jpg)
 
-For example, let's say that an oil and gas company (Customer A) wants to deliver gas from Austin, TX to Raleigh, NC. Customer A makes a contract with 3PL to deliver gas or "load" for \$1000. The sales rep, Kelly, at 3PL, inputs the load information, such as pick up time, arrival time, departure location, destination, load type, etc. to the software, which generates a list of gas-carrying trucks (Carrier X, Carrier Y, Carrier Z) that will be nearby Austin, TX to deliver the load. Kelly calls each carriers from the list and negotiates delivery price.  Although Carrier Z offers the lowest price for delivery, Kelly is hesitant with  Carrier Z's capability. Rather, Kelly makes a contract with Carrier X at $600 who has successfully delivered similar loads in the past. This will leave Kelly with a total of \$1000 - \$600 = \$400 profit.
+For example, let's say that an frozen yogurt company (Customer A) wants to deliver their product from Austin, TX to Raleigh, NC. Customer A makes a contract with 3PL to deliver the product or "load" for \$1000. The sales rep, Kelly, at 3PL, inputs the load information, such as pick up time, arrival time, departure location, destination, load type, product type, etc. to the software, which generates a list of refrigerated container trucks (Carrier X, Carrier Y, Carrier Z) that will be nearby Austin, TX to deliver the load. Kelly calls each carriers from the list and negotiates delivery price.  Although Carrier Z offers the lowest price for delivery, Kelly is hesitant with  Carrier Z's capability. Rather, Kelly makes a contract with Carrier X at $600 who has successfully delivered similar loads in the past. This will leave Kelly with a total of \$1000 - \$600 = \$400 profit.
 
 
 BUT, something bad happens at the very last minute.
 
 ![2](/assets/img/project/2016_Intern_PJT/2.jpg)
 
-Four hours before the appointed pick up time, the Carrier X notifies Kelly that he cannot arrive on time to Austin and gives up to deliver the load due to many possible reasons: he ran late to the previous delivery location, an unexpected car accident broke out, he exceeded his total driving hour limit by law, and so on. This type of load that is firstly appointed to a carrier and later canceled is called a "bounce load." Kelly now has only 4 hours to find another carrier to deliver the load. If Kelly cannot to deliver the load on time, she will have to pay a penalty to Customer A for not complying with the contract which can also hurt the business relationship. With the urgent deadline, Kelly finds a carrier who agrees to deliver the load at \$1200. Although this will leave no profit to Kelly, she can do nothing but make a contract with a deficit of $200.
+Four hours before the appointed pick up time, the Carrier X notifies Kelly that he can't arrive on time to Austin and gives up to deliver the load due to many possible reasons: he ran late to the previous delivery location, an unexpected car accident broke out, he exceeded his total driving hour limit by law, and so on. This type of load that is firstly appointed to a carrier and later cancelled is called a "bounce load." Kelly now has only 4 hours to find another carrier to deliver the load. If Kelly cannot to deliver the load on time, she will have to pay a penalty to Customer A for not complying with the contract which can also hurt the business relationship. With the urgent deadline, Kelly finds a carrier who agrees to deliver the load at \$1200. Although this will leave no profit to Kelly, she can do nothing but make a contract with a deficit of $200.
 
 
-- Due to the abrupt bounce load, the following problems occurred:
+- Due to the abrupt bounce load, Kelly is likely to:
 1. Make a contract with a new carrier at a higher price (lower margin)
-2. Damage customer relationship and pay late penalties if failed to deliver the load on time
+2. Damage customer relationship and pay late penalties if she fails to deliver the load on time
 
 
 What if Kelly could prevent the bounce load in the first place? What if she foresaw that Carrier X was likely to bounce the load and made a contract with Carrier Z in the first place who would have successfully delivered the load?
@@ -51,7 +51,7 @@ What if Kelly could prevent the bounce load in the first place? What if she fore
 
 Making these predictions come true was my summer project.
 
-![3](/assets/img/project/2016_Intern_PJT/3.jpg)
+![3](/assets/img/project/2016_Intern_PJT/3.jpg){:  height="200px"}
 
 ---
 ## Project Goal
@@ -63,10 +63,10 @@ Based on the data including carrier's information, weather, etc., our goal is to
 
 1. **Data collection and cleaning**
 
-I wrote a SQL script to collect 3.5 million loads. In order to feature engineer variables that might be important for predicting bounce loads, I asked around sales representatives as well as other professionals to gain domestic knowledge.
+I utilized stored procedure and wrote a SQL script to collect 3.5 million loads. In order to feature engineer variables that might be important for predicting bounce loads, I asked around sales representatives as well as other professionals to gain domestic knowledge.
 
 
-For instance, there is a regulation in the US that prohibits drivers from driving more than certain amount of hours consecutively. I talked to my manager to see if we are storing data like this and if not, if there's any ways we could access those information.
+For instance, there is a [regulation](https://www.thebalancesmb.com/freight-trucking-dot-hours-1361484) in the US that prohibits drivers from driving more than certain amount of hours consecutively. I talked to my manager to see if we are storing data like this and if not, if there's any ways we could access those information.
 
 
 In addition, since the data was imbalanced, I used SMOTE to raise bounce loads (minority class) by creating synthetic non-duplicate samples of the bounce loads.
@@ -105,9 +105,10 @@ Below is the data flow of the service:
 
 ![4](/assets/img/project/2016_Intern_PJT/4.jpg)
 
-> User types in a LoadID on the Web which triggers the Web App (Client) to retrieve information about of the load from the database.
->> Send load information to the server (where predictive model is) through the message queue.
->>> Send delivery success rate of carriers to the Web App (Client)
+1. User types in a LoadID on the Web which triggers the Web App (Client) to retrieve information about of the load from the database.
+2. Send load information to the server (where predictive model is) through the message queue.
+3. Send delivery success rate of carriers to the Web App (Client)
+
 
 
 In regards to the message queue, I used a request-reply broker that makes the client/server architectures easier to scale because clients don't see workers, and workers don't see clients. The only static node is the broker (ZeroMQ) in the middle.
@@ -133,15 +134,15 @@ Before fully releasing the Bounce Prediction Service into production, we might w
 
 - The 12 week long process of making a product from the scratch taught me that "domain knowledge" and "communication" are essential to being a good data scientist. It was a blast talking to people from different backgrounds in business, learning about features for predictive model, and coming up with new features to be engineered to improve our model. I found myself deeply immersed in the project and really enjoyed the time with other interns as well.
 
-- One thing I wish I had done during the internship was being involved with productionizing the product and carrying out A/B testing to observe how users react. I wish I had an experience of how A/B testing is done in real business settings, how they collect user feedback and reflect it to the final release.
+- One thing I wish I had done during the internship was being involved with productionizing the product and carrying out A/B testing to observe how users react. I wish I had an experience of how A/B testing is done in the industry, how they collect user feedback and reflect it to the final release.
 
-- I really appreciate my manager, colleagues, sales reps, and intern friends who helped me throughout the journey. Especially, I'd like to thank my manager who granted me permission to a variety of data and supported me. Everyone was very willing to take time to answer my questions and put up with my curiosity. I learned not only the technical skills to become a good data scientist, but I also really cherish the opportunity to think about how important it is to build relationship with my colleagues with whom I spend 1/3 of my day!
+- I really appreciate my manager, colleagues, sales reps, and intern friends who helped me throughout the journey. Especially, I'd like to thank my manager who granted me permission to a variety of data and supported me. Everyone was very willing to take time to answer my questions and put up with my curiosity. I learned not only the technical skills to become a good data scientist, but I also really cherish the opportunity to think about how important it is to build good relationship with my colleagues with whom I spend 1/3 of my day!
 
 
 These are some of the thoughts I started to have in mind:
 
 - How can I be helpful to people around me not just career-wise but life in general.
-- How can grow myself with people around me?
+- How can I grow with people around me?
 - What should I do now to do that?
 
 I will constantly crave for finding answers to these questions.
