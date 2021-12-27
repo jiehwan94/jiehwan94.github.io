@@ -16,11 +16,7 @@ redirect_from:
 
 <center>Minors: Computer Science, Statistics, Business Analytics</center> -->
 
----
 
-**Out of curiosity and for self-improvement, I like to experiment my hypotheses on seemingly petty and yet fascinating phenomena and challenge myself learning new technologies by blogging and building side projects using various tools. I am constantly evolving my interests to pursue a career in Data Science.**
-
-**My current interests lie in the intersection of data science and logistics/transportation.**
 
 
 ## Education
@@ -63,6 +59,11 @@ redirect_from:
 > Linkedin : <a href="https://www.linkedin.com/in/jiehwan-yang-8342a791/">https://linkedin.com/jiehwan_yang</a>
 
 > Github : <a href="https://github.com/jiehwan94">https://github.com/jiehwan94</a>
+
+
+**Out of curiosity and for self-improvement, I like to experiment my hypotheses on seemingly petty and yet fascinating phenomena and challenge myself learning new technologies by blogging and building side projects using various tools. I am constantly evolving my interests to pursue a career in Data Science.**
+
+**My current interests lie in the intersection of data science and logistics/transportation.**
 
 
 ---
